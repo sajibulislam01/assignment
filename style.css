@@ -1,0 +1,90 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.first-section-img img {
+    height: 400px;
+    object-fit: contain;
+}
+.half-width{
+    width: 25%;
+    padding-left: 10px;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(coral,tomato);
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.abaout-me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(image/7.png);
+    background-repeat: no-repeat;
+    background-position: left -40px top;
+    margin-bottom: 150px;
+}
+.recipie{
+    display: flex;
+    justify-content: center;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.third-section h2 {
+    text-align: center;
+}
+
+.third-section p {
+    margin-bottom: 60px;
+}
+.recipies-t{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.recipies-t h2 {
+    text-align: left;
+}
+.recipies-t img{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer h1 {
+    color: white;
+}
+
+.blue-color{
+    color: blue;
+}
